@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/style/output.css">
+    <link rel="shortcut icon" href="assets/logopet (1).png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/334b29d687.js" crossorigin="anonymous"></script>
+    <title>Pet Doce Lar</title>
+</head>
+<body class="bg-linear-to-tl overflow-x-hidden to-amber-50 from-orange-50 bg-cover min-h-screen w-full">
+  
+      <header class="bg-orange-300 sticky top-0 z-100">
+        <article class="w-full max-w-[1600px] mx-auto px-4 flex justify-between items-center">
+        <div class="w-full max-w-36"><img src="/portfolio/petshop/assets/logopet (1).png" alt="logo pet doce lar" class="hover:scale-110 duration-300 cursor-pointer"></div>
+         <button class="btnMenu linkMenu hover:text-marromDestaque" id="btnMenu"><i class="fa-solid fa-bars"></i></button>
+         <nav class="hidden md:block">
+        <ul class="flex gap-6 items-center text-white font-bold text-lg tracking-wider ">
+            <li><a href="#home" class="hover:text-marromDestaque duration-400">Home</a></li>
+            <li><a href="#servicos" class="hover:text-marromDestaque duration-400">Serviços</a></li>
+             <li><a href="#produtos" class="hover:text-marromDestaque duration-400">Produtos</a></li>
+            <li><a href="#galeria"  class="hover:text-marromDestaque duration-400 ">Galeria</a></li>
+         
+            <li><a href="#visite"  class="hover:text-marromDestaque duration-400 ">Visite-nos</a></li>
+        </ul>
+      </nav>
+       </article>
+      </header>
+
+          <!-- Menu Mobile -->
+         
+
+    <nav class="fixed duration-400 w-screen h-screen top-0 right-0 left-0 bottom-0 translate-x-full z-200 bg-black/90 backdrop-blur-md" id="menu-mobile">
+        <button class="absolute top-5 right-5 text-3xl cursor-pointer linkMenu item-lista hover:text-marromDestaque" id="btn-close">X</button>
+          <ul class="min-h-screen flex justify-center items-center flex-col gap-6">
+                <li><a href="#home" class="item-lista-mobile linkMenu hover:text-marromDestaque">Home</a></li>
+
+
+                <li><a href="#servicos" class="item-lista-mobile linkMenu hover:text-marromDestaque">Serviços</a></li>
+
+
+
+                  <li><a href="#produtos" class="item-lista-mobile linkMenu hover:text-marromDestaque">Produtos</a></li>
+
+                    <li><a href="#galeria" class="item-lista-mobile linkMenu hover:text-marromDestaque">Galeria</a></li>
+
+                  
+
+
+                 <li><a href="#visite" class="item-lista-mobile linkMenu hover:text-marromDestaque">Visite-nos</a></li>
+
+            </ul>
+    </nav>
+
+    <main>
+      <div class="bg-white">
+          <section class="flex flex-col lg:flex-row justify-between items-center w-full max-w-[1600px] mx-auto section" id="home">
+            <article class="flex-1 section-padrao gap-6 self-start flex">
+              <p class="text-orange-300 font-['Inconsolata'] font-bold text-lg border-b-2 w-fit animate-fadeUp delay_300">Cuidado que faz parte da família</p>
+              <h1 class="font-['DynaPuff'] text-5xl xl:text-7xl text-marromDestaque animate-fadeUp delay_500">Seu pet merece um lar cheio de carinho.</h1>
+              <h2 class="font-['Englebert'] text-xl lg:text-2xl animate-fadeUp delay_700">Banho, tosa, alimentação natural e day care a poucos passos de casa — com quem trata seu bicho como se fosse da família, não como número de ficha.</h2>
+              <article class="mt-4 flex gap-4 flex-col lg:flex-row animate-fadeUp delay_1000">
+                <a href="#" class="bg-orange-300 text-marromDestaque font-bold p-4 rounded-full text-center hover:scale-105 duration-300">Agendar horário</a>
+                <a href="#" class="  text-white border-2 border-black bg-marromDestaque font-bold p-4 text-center  hover:scale-105 duration-300">Ver serviços</a>
+                <a href="#" class="p-4 border-2 border-marromDestaque text-center font-bold  hover:scale-105 duration-300">Ver produtos</a>
+              </article>
+            </article>
+            <article class="flex-1 animate-fadeUp delay_200">
+              <div class="overflow-hidden"><img src="assets/dalmata.png" alt="" class="hover:scale-105 duration-500 cursor-pointer" id="dalmata"></div>
+              <audio src="assets/freesound_community-single-dog-bark-king-charles-spaniel-41366.mp3" id="latido"></audio>
+            </article>
+          </section>  
+      </div>
+
+      <section class="section-padrao section reveal mt-28" id="servicos">
+          <p class="eyerBrowPet">Serviços</p>
+          <h3 class="subtitlePet">O que oferecemos para o seu pet</h3>
+          <div class="grid lg:grid-cols-4 gap-6">
+            <article class="bg-creme p-4 rounded-xl flex flex-col justify-center items-center gap-2  hover:scale-105 hover:translate-x-2 hover:-translate-y-2 duration-300 cursor-pointer hover:shadow-md hover:shadow-black">
+              <p class="text-5xl bg-orange-200  rounded-full w-20 h-20 flex items-center justify-center">🛁</p>
+              <h4 class="font-['Inconsolata'] text-2xl">Banho & Tosa</h4>
+              <p class="opacity-50 text-lg flex-1">Oferecemos banho e tosa para o seu amigo com todos nossos cuidados.</p>
+              <a href="#" class="bg-orange-300 p-3 rounded-full font-bold text-marromDestaque hover:scale-105 duration-300">Agendar</a>
+            </article>
+
+              <article class="bg-creme p-4 rounded-xl flex flex-col justify-center items-center gap-2  hover:scale-105 hover:translate-x-2 hover:-translate-y-2 duration-300 cursor-pointer hover:shadow-md hover:shadow-black">
+              <p class="text-5xl bg-orange-200  rounded-full w-20 h-20 flex items-center justify-center">🪀</p>
+              <h4 class="font-['Inconsolata'] text-2xl">Loja & acessórios</h4>
+              <p class="opacity-50 text-lg flex-1">Coleiras, camas e brinquedos, tudo o que seu pet  precisa</p>
+              <a href="#produtos" class="bg-orange-300 p-3 rounded-full font-bold text-marromDestaque hover:scale-105 duration-300">Ver produtos</a>
+            </article>
+            
+
+             <article class="bg-creme p-4 rounded-xl flex flex-col justify-center items-center gap-2  hover:scale-105 hover:translate-x-2 hover:-translate-y-2 duration-300 cursor-pointer hover:shadow-md hover:shadow-black">
+              <p class="text-5xl bg-orange-200  rounded-full w-20 h-20 flex items-center justify-center">🩺</p>
+              <h4 class="font-['Inconsolata'] text-2xl">Consultas veterinárias</h4>
+              <p class="opacity-50 text-lg flex-1">Clínica especializada para check-ups, vacinas e emergências.</p>
+              <a href="#" class="bg-orange-300 p-3 rounded-full font-bold text-marromDestaque hover:scale-105 duration-300">Agendar consulta</a>
+            </article>
+
+             <article class="bg-creme p-4 rounded-xl flex flex-col justify-center items-center gap-2 hover:scale-105 hover:translate-x-2 hover:-translate-y-2 duration-300 cursor-pointer hover:shadow-md hover:shadow-black">
+              <p class="text-5xl bg-orange-200  rounded-full w-20 h-20 flex items-center justify-center">🦴</p>
+              <h4 class="font-['Inconsolata'] text-2xl">Rações & Petiscos</h4>
+              <p class="opacity-50 text-lg flex-1">Temos rações de marcas confiáveis para melhor alimentação do seu amigo.</p>
+              <a href="#produtos" class="bg-orange-300 p-3 rounded-full font-bold text-marromDestaque hover:scale-105 duration-300">Ver produtos</a>
+            </article>
+
+          </div>
+      </section>
+
+      <section class="section-padrao section reveal" id="produtos">
+        <p class="eyerBrowPet">Produtos</p>
+        <h4 class="subtitlePet">Confira nosso catálogo</h4>
+
+         <div class="grid gap-6 mt-4 grid-cols-2  lg:grid-cols-4 items-center">
+
+      <button data-categoria="caes" class="categoria-btn active flex flex-col items-center justify-center cursor-pointer bg-orange-100 rounded-xl p-2  shadow-black hover:shadow-md hover:scale-105 duration-300 ease-in-out">
+       <img src="assets/cachorro.webp" alt="" class="w-full max-w-56  object-cover aspect-square flex-1"><p class="font-bold text-xl text-marromDestaque text-shadow-xs text-shadow-black">Cães</p></button>
+
+    <button data-categoria="gatos" class="categoria-btn  flex flex-col items-center justify-center cursor-pointer bg-orange-100 rounded-xl p-2  shadow-black hover:shadow-md hover:scale-105 duration-300 ease-in-out">
+    <img src="assets/gato.webp" alt="" class="w-full max-w-56 object-cover aspect-square flex-1"><p class="font-bold text-xl text-marromDestaque text-shadow-xs text-shadow-black">Gatos</p></button>
+
+    <button data-categoria="brinquedos" class="categoria-btn flex flex-col items-center justify-center cursor-pointer bg-orange-100 rounded-xl p-2  shadow-black hover:shadow-md hover:scale-105 duration-300 ease-in-out">
+    <img src="assets/brinquedocachorro.png" alt="" class="w-full  max-w-56 object-cover aspect-square flex-1"><p class="font-bold text-xl text-marromDestaque text-shadow-xs text-shadow-black">Brinquedos & Acessórios</p></button>
+
+    <button data-categoria="racao" class="categoria-btn flex flex-col items-center justify-center cursor-pointer bg-orange-100 rounded-xl p-2  shadow-black hover:shadow-md hover:scale-105 duration-300 ease-in-out">
+    <img src="assets/racaocachorro.png" alt="" class="w-full  max-w-56 object-cover aspect-square flex-1"><p class="font-bold text-xl text-marromDestaque text-shadow-xs text-shadow-black">Ração</p></button>
+  </div>
+
+  <div class="menu-categoria mt-20 grid grid-cols-2 gap-4 lg:grid-cols-5" data-categoria="caes">
+    <!-- produtos para cães -->
+     <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+    <div>
+      <img src="assets/racaocachorro.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+    </div>
+    <h5 class="font-bold text-lg">Ração premium para cães - 5kg</h5>
+    <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+    <p class="font-medium text-orange-400">R$39,99</p>
+</div>
+
+  <div class="card-produto b hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+    <div>
+      <img src="assets/racaocachorro.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+    </div>
+    <h5 class="font-bold text-lg">Ração premium para cães - 10kg</h5>
+    <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+    <p class="font-medium text-orange-400">R$89,99</p>
+</div>
+
+  <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+    <div>
+      <img src="assets/racaocachorro.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+    </div>
+    <h5 class="font-bold text-lg">Ração premium para cães - 15kg</h5>
+    <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+    <p class="font-medium text-orange-400">R$109,99</p>
+</div>
+
+ <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+    <div>
+      <img src="assets/sache_cachorro.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+    </div>
+    <h5 class="font-bold text-lg">Cães Adultos Raças Pequenas Molho Sachê Carne - 100g</h5>
+    <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+    <p class="font-medium text-orange-400">R$2,99</p>
+</div>
+
+<div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+    <div>
+      <img src="assets/sache_cachorro.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+    </div>
+    <h5 class="font-bold text-lg">Cães Adultos Raças Pequenas Molho Sachê Frango - 100g</h5>
+    <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+    <p class="font-medium text-orange-400">R$2,99</p>
+</div>
+
+ <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+    <div>
+      <img src="assets/brinquedocachorro.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+    </div>
+    <h5 class="font-bold text-lg">Mordedor macio e resistente</h5>
+    <p class="italic font-medium opacity-50 flex-1">Para o seu cãozinho brincar e se distrair.</p>
+    <p class="font-medium text-orange-400">R$19,99</p>
+</div>
+
+<div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+    <div>
+      <img src="assets/coleira.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+    </div>
+    <h5 class="font-bold text-lg">Coleira</h5>
+    <p class="italic font-medium opacity-50 flex-1">Para levar o seu cãozinho em um passeio.</p>
+    <p class="font-medium text-orange-400">R$49,99</p>
+</div>
+
+<div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+    <div>
+      <img src="assets/bolinha_cao.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+    </div>
+    <h5 class="font-bold text-lg">Bolinha macio e resistente</h5>
+    <p class="italic font-medium opacity-50 flex-1">Para o seu cãozinho brincar e se distrair.</p>
+    <p class="font-medium text-orange-400">R$9,99</p>
+</div>
+
+<div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+    <div>
+      <img src="assets/cama.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+    </div>
+    <h5 class="font-bold text-lg">Cama</h5>
+    <p class="italic font-medium opacity-50 flex-1">Cama macia e confortável para o seu pet dormir tranquilamente.</p>
+    <p class="font-medium text-orange-400">R$79,99</p>
+</div>
+</div>
+
+
+ <div class="menu-categoria hidden" data-categoria="gatos">
+    <!-- produtos para gatos -->
+     <div class=" mt-20 grid grid-cols-2 gap-4 lg:grid-cols-5">
+       <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+           <div>
+        <img src="assets/racao_gato.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+           </div>
+           <h5 class="font-bold text-lg">Ração premium para gatos - 5kg</h5>
+           <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+           <p class="font-medium text-orange-400">R$39,99</p>
+       </div>
+       
+         <div class="card-produto b hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+           <div>
+        <img src="assets/racao_gato.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+           </div>
+           <h5 class="font-bold text-lg">Ração premium para gatos - 10kg</h5>
+           <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+           <p class="font-medium text-orange-400">R$89,99</p>
+       </div>
+       
+         <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+           <div>
+        <img src="assets/racao_gato.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+           </div>
+           <h5 class="font-bold text-lg">Ração premium para gatos - 15kg</h5>
+           <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+           <p class="font-medium text-orange-400">R$109,99</p>
+       </div>
+       
+        <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+           <div>
+        <img src="assets/sache_gato.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+           </div>
+           <h5 class="font-bold text-lg">Molho Sachê Atum - 100g</h5>
+           <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+           <p class="font-medium text-orange-400">R$2,99</p>
+       </div>
+       
+       <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+           <div>
+        <img src="assets/sache_gato.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+           </div>
+           <h5 class="font-bold text-lg">Molho Sachê Frango - 100g</h5>
+           <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+           <p class="font-medium text-orange-400">R$2,99</p>
+       </div>
+       
+        <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+           <div>
+        <img src="assets/arranhador.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+           </div>
+           <h5 class="font-bold text-lg">Arranhador</h5>
+           <p class="italic font-medium opacity-50 flex-1">Para o seu gatinho afiar as garras.</p>
+           <p class="font-medium text-orange-400">R$19,99</p>
+       </div>
+       
+       <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+           <div>
+        <img src="assets/bolinha_cao.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+           </div>
+           <h5 class="font-bold text-lg">Bolinha macio e resistente</h5>
+           <p class="italic font-medium opacity-50 flex-1">Para o seu gatinho brincar e se distrair.</p>
+           <p class="font-medium text-orange-400">R$9,99</p>
+       </div>
+       
+       <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+           <div>
+        <img src="assets/cama.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+           </div>
+           <h5 class="font-bold text-lg">Cama</h5>
+           <p class="italic font-medium opacity-50 flex-1">Cama macia e confortável para o seu pet dormir tranquilamente.</p>
+           <p class="font-medium text-orange-400">R$79,99</p>
+       </div>
+     </div>
+</div>
+
+
+
+ <div class="menu-categoria hidden" data-categoria="brinquedos">
+    <!-- Brinquedos -->
+     <div class=" mt-20 grid grid-cols-2 gap-4 lg:grid-cols-5">
+      <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+    <div>
+      <img src="assets/brinquedocachorro.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+    </div>
+    <h5 class="font-bold text-lg">Mordedor macio e resistente</h5>
+    <p class="italic font-medium opacity-50 flex-1">Para o seu cãozinho brincar e se distrair.</p>
+    <p class="font-medium text-orange-400">R$19,99</p>
+</div>
+       
+       <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+    <div>
+      <img src="assets/bolinha_cao.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+    </div>
+    <h5 class="font-bold text-lg">Bolinha macio e resistente</h5>
+    <p class="italic font-medium opacity-50 flex-1">Para o seu cãozinho brincar e se distrair.</p>
+    <p class="font-medium text-orange-400">R$9,99</p>
+</div>
+       
+         <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+           <div>
+        <img src="assets/arranhador.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+           </div>
+           <h5 class="font-bold text-lg">Arranhador</h5>
+           <p class="italic font-medium opacity-50 flex-1">Para o seu gatinho afiar as garras.</p>
+           <p class="font-medium text-orange-400">R$19,99</p>
+       </div>
+       
+          <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+           <div>
+        <img src="assets/cama.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+           </div>
+           <h5 class="font-bold text-lg">Cama</h5>
+           <p class="italic font-medium opacity-50 flex-1">Cama macia e confortável para o seu pet dormir tranquilamente.</p>
+           <p class="font-medium text-orange-400">R$79,99</p>
+       </div>
+
+       <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+    <div>
+      <img src="assets/coleira.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+    </div>
+    <h5 class="font-bold text-lg">Coleira</h5>
+    <p class="italic font-medium opacity-50 flex-1">Para levar o seu cãozinho em um passeio.</p>
+    <p class="font-medium text-orange-400">R$49,99</p>
+</div>
+     </div>
+</div>
+
+
+
+ <div class="menu-categoria hidden" data-categoria="racao">
+    <!-- Racao -->
+     <div class=" mt-20 grid grid-cols-2 gap-4 lg:grid-cols-5">
+
+       <div class="card-produto b hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+    <div>
+      <img src="assets/racaocachorro.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+    </div>
+    <h5 class="font-bold text-lg">Ração premium para cães - 10kg</h5>
+    <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+    <p class="font-medium text-orange-400">R$89,99</p>
+</div>
+
+  <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+    <div>
+      <img src="assets/racaocachorro.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+    </div>
+    <h5 class="font-bold text-lg">Ração premium para cães - 15kg</h5>
+    <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+    <p class="font-medium text-orange-400">R$109,99</p>
+</div>
+
+ <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+    <div>
+      <img src="assets/sache_cachorro.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+    </div>
+    <h5 class="font-bold text-lg">Cães Adultos Raças Pequenas Molho Sachê Carne - 100g</h5>
+    <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+    <p class="font-medium text-orange-400">R$2,99</p>
+</div>
+
+<div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+    <div>
+      <img src="assets/sache_cachorro.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+    </div>
+    <h5 class="font-bold text-lg">Cães Adultos Raças Pequenas Molho Sachê Frango - 100g</h5>
+    <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+    <p class="font-medium text-orange-400">R$2,99</p>
+</div>
+
+      
+       <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+           <div>
+        <img src="assets/racao_gato.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+           </div>
+           <h5 class="font-bold text-lg">Ração premium para gatos - 5kg</h5>
+           <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+           <p class="font-medium text-orange-400">R$39,99</p>
+       </div>
+       
+         <div class="card-produto b hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+           <div>
+        <img src="assets/racao_gato.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+           </div>
+           <h5 class="font-bold text-lg">Ração premium para gatos - 10kg</h5>
+           <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+           <p class="font-medium text-orange-400">R$89,99</p>
+       </div>
+       
+         <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+           <div>
+        <img src="assets/racao_gato.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+           </div>
+           <h5 class="font-bold text-lg">Ração premium para gatos - 15kg</h5>
+           <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+           <p class="font-medium text-orange-400">R$109,99</p>
+       </div>
+       
+        <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+           <div>
+        <img src="assets/sache_gato.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+           </div>
+           <h5 class="font-bold text-lg">Molho Sachê Atum - 100g</h5>
+           <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+           <p class="font-medium text-orange-400">R$2,99</p>
+       </div>
+       
+       <div class="card-produto  hover:-translate-y-4 duration-300 hover:shadow-md shadow-black">
+           <div>
+        <img src="assets/sache_gato.png" alt="" class="w-full max-w-72 aspect-square object-cover cursor-pointer">
+           </div>
+           <h5 class="font-bold text-lg">Molho Sachê Frango - 100g</h5>
+           <p class="italic font-medium opacity-50 flex-1">Nutrição completa para o dia a dia.</p>
+           <p class="font-medium text-orange-400">R$2,99</p>
+       </div>
+     </div>
+</div>
+      </section>
+
+      <section class="section-padrao section reveal" id="galeria">
+        <p class="eyerBrowPet">Galeria</p>
+        <h3 class="subtitlePet">Veja alguns de nossos clientes</h3>
+        <div class="grid lg:grid-cols-3 gap-4">
+          <div class="overflow-hidden border-8 border-madeira border-double"><img src="assets/cao1.webp" alt="" class="object-cover aspect-square hover:scale-105 duration-300">
+          </div>
+            <div class="overflow-hidden border-8 border-madeira border-double"><img src="assets/cao2.webp" alt="" class="object-cover aspect-square hover:scale-105 duration-300">
+          </div>
+            <div class="overflow-hidden border-8 border-madeira border-double"><img src="assets/cao3.webp" alt="" class="object-cover aspect-square hover:scale-105 duration-300">
+          </div>
+            <div class="overflow-hidden border-8 border-madeira border-double"><img src="assets/cao4.webp" alt="" class="object-cover aspect-square hover:scale-105 duration-300">
+          </div>
+            <div class="overflow-hidden border-8 border-madeira border-double"><img src="assets/gato1.webp" alt="" class="object-cover aspect-square hover:scale-105 duration-300">
+          </div>
+            <div class="overflow-hidden border-8 border-madeira border-double"><img src="assets/gato2.webp" alt="" class="object-cover aspect-square hover:scale-105 duration-300">
+          </div>
+        </div>
+      </section>
+
+      <section class="section-padrao section reveal">
+        <p class="eyerBrowPet">Feedbacks</p>
+        <h3 class="subtitlePet">Quem frequenta volta sempre</h3>
+        <div class="grid gap-6 lg:grid-cols-3 mx-auto">
+          <article class="border-2 border-black/60 p-6 rounded-lg bg-orange-100 relative w-md flex">
+            <article class="flex flex-col gap-4 w-full max-w-xs">
+              <p class="italic text-marromDestaque/50 font-medium flex-1">"Meu Bidu chega abanando o rabo antes mesmo de a gente estacionar. Isso já diz tudo."</p>
+              <div>
+                <p class="font-['Insolata']">Renata, tutora do Bidu</p>
+                <p class="text-xs">Cliente desde 2020</p>
+              </div>
+            </article>
+             <div class="absolute top-1 right-2 text-marromDestaque border-2 border-marromDestaque rounded-full uppercase font-bold p-2 flex justify-center items-center text-center w-16 h-16 text-[10px]">100%</br> aprovado</div>
+          </article>
+            <article class="border-2 border-black/60 p-6 rounded-lg bg-orange-100 relative w-md flex">
+            <article class="flex flex-col gap-4 w-full max-w-xs">
+              <p class="italic text-marromDestaque/50 font-medium flex-1">"A ração natural mudou a pelagem da Mel em três semanas. Ninguém tinha me falado isso antes."</p>
+              <div>
+                <p class="font-['Insolata']">Otávio, tutor da Mel</p>
+                <p class="text-xs">Cliente desde 2022</p>
+              </div>
+            </article>
+             <div class="absolute top-1 right-2 text-marromDestaque border-2 border-marromDestaque rounded-full uppercase font-bold p-2 flex justify-center items-center text-center w-16 h-16 text-[10px]">100%</br> aprovado</div>
+          </article>
+            <article class="border-2 border-black/60 p-6 rounded-lg bg-orange-100 relative w-md flex">
+            <article class="flex flex-col gap-4 w-full max-w-xs">
+              <p class="italic text-marromDestaque/50 font-medium flex-1">"O Thor e o Rick sempre voltam muitoooo cheirosos e limpinhos."</p>
+              <div>
+                <p class="font-['Insolata']">Leonardo, tutor do Thor e do Rick</p>
+                <p class="text-xs">Cliente desde 2023</p>
+              </div>
+            </article>
+             <div class="absolute top-1 right-2 text-marromDestaque border-2 border-marromDestaque rounded-full uppercase font-bold p-2 flex justify-center items-center text-center w-16 h-16 text-[10px]">100%</br> aprovado</div>
+          </article>
+        </div>
+      </section>
+
+      <article class="bg-[url('/portfolio/petshop/assets/fundopetshop.png')]">
+        <section class="section-padrao section reveal">
+          <p class="eyerBrowPet">Visite-nos</p>
+          <h3 class="subtitlePet text-white">Traga seu pet para cá e não se arrependa jamais</h3>
+          <div class="flex flex-col-reverse xl:flex-row gap-8 justify-between  w-full">
+            <article>
+              <p class="font-medium text-orange-300 text-shadow-xs text-shadow-black/50 mb-8">Chame no WhatsApp que a gente guarda o horário.</p>
+              <a href="#" class="bg-orange-300 text-marromDestaque font-bold rounded-full p-4 hover:scale-110 duration-300 block text-center w-full max-w-56">Chamar no WhatsApp</a>
+              <div class="bg-orange-100 border-2 border-marromDestaque rounded-lg px-4 py-6 mt-6 flex flex-col gap-6 font-['Englebert'] text-xl">
+                <div class="flex justify-between font-medium border-b-[1px] text-marromDestaque">
+                  <p>Segunda a sexta</p>
+                  <p>08h - 19h</p>
+                </div>
+                <div  class="flex justify-between font-medium border-b-[1px] text-marromDestaque">
+                  <p>Sábado</p>
+                  <p>08h - 17h</p>
+                </div>
+                <div  class="flex justify-between font-medium border-b-[1px] text-marromDestaque">
+                  <p>Domingo</p>
+                  <p>Fechado</p>
+                </div>
+              </div>
+              <address class="bg-orange-100 border-2 border-marromDestaque rounded-lg mt-8 p-4 font-['Englebert']">
+                <article>
+                  <h5 class="font-bold mb-2 text-xl uppercase">Endereço</h5>
+                  <p class="text-lg">Rua Delaine Negro, 90 - Alto da Colina</p>
+                  <p class="text-lg">Londrina - PR</p>
+                </article>
+                <article class="mt-4">
+                  <h5 class="font-bold mb-2 text-xl uppercase">Contato</h5>
+                  <p class="text-lg">(43) 99999 - 9999</p>
+                  <p class="text-lg">contatopetshopdocelar@email.com</p>
+                </article>
+              </address>
+            </article>
+        
+            <article>
+              <img src="assets/petshop.jpg" alt="" class="object-cover aspect-square w-full max-w-2xl border-2 border-marromDestaque">
+            </article>
+          </div>
+        </section>
+      </article>
+
+      <section class="bg-orange-100">
+        <footer class="w-full max-w-[1600px] mx-auto mt-20 flex flex-col gap-4 lg:flex-row justify-between items-center text-marromDestaque font-medium">
+          <div><img src="assets/logopet (1).png" alt="" class="max-w-28 w-full hover:scale-105 duration-300"></div>
+          <nav>
+            <ul class="flex gap-4">
+              <li><a href="#servicos" class="hover:text-orange-400 duration-300">Serviços</a></li>
+              <li><a href="#produtos" class="hover:text-orange-400 duration-300">Produtos</a></li>
+              <li><a href="#" class="hover:text-orange-400 duration-300">WhatsApp</a></li>
+              <li><a href="#" class="hover:text-orange-400 duration-300">Instagram</a></li>
+            </ul>
+          </nav>
+          © 2026 Focinho Pet Shop. Feito de bairro, pra bairro.
+        </footer>
+      </section>
+    
+    </main>
+ 
+  <a href="#" class="btnWhats text-white"><i class="fa-brands fa-whatsapp"></i></a>
+  <script src="petshop.js"></script>
+</body>
+</html>

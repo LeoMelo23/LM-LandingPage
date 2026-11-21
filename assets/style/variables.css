@@ -1,0 +1,28 @@
+@theme {
+ --color-texto:#F5ECD7;
+ --color-turquesa:#38C6CC;
+ --color-destaque:#C93B00;
+ --color-ember:#E8431A;
+ --color-gold:#5F3718;
+ --color-subtitle:#6B5C44;
+ --font-subtitle: "Geist", sans-serif;
+ --font-texto:"Jost", sans-serif;
+ --font-chamada:"Smooch Sans", sans-serif;
+ --font-title:"Montenegrin Gothic One", serif;
+ --font-destaque: "Abril Fatface", serif;
+ 
+/* AQUI COMEÇA A BARBEARIA */
+
+--color-madeira:#9C6F45;
+
+/* AQUI COMEÇA A CAFETERIA */
+--color-cafe: #3B2418;
+--color-latte: #B88A63;
+--color-amendoa: #D6BFA6;
+--color-cappuccino: #A37C53;
+--color-creme:#F3E9D7;
+
+/* PETSHOP */
+--color-marromDestaque:#73431A;
+--color-salmao:#E67655;
+}
